@@ -1,15 +1,8 @@
-// import type React from "react"
-// import DocumentEditor from "./components/editor/DocumentEditor"
+export default function Home() {
+  return (
+    <main className="p-8">
+      <h1 className="text-2xl font-bold">Welcome to Next.js + Tiptap Editor 🚀</h1>
+    </main>
+  )
+}
 
-
-
-// const App: React.FC = () => {
-//   return (
-//     <div className="min-h-screen bg-gray-50">
-//       {/* Tailwind Test - Should be blue if working */}
-//       <DocumentEditor />
-//     </div>
-//   )
-// }
-
-// export default App
